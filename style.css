@@ -1,3 +1,59 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+.all-container {
+  display: flex;
+  flex-direction: row;
+}
+.img-container {
+  z-index: -1;
+}
+.tree {
+  position: relative;
+  height: 653px;
+  width: 387px;
+  z-index: -1;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+.odin-logo {
+  z-index: 10;
+  width: auto;
+  height: 100px;
+  margin-left: 90px;
+}
+/*.trans-container {
+  z-index: -2;
+  background-attachment: ;
+  background-color: black;
+  width: 387px;
+  height: 100px;
+  margin-top: -500px;
+  opacity: 35%;
+}*/
+@font-face {
+  font-family: norse;
+  src: url(/Norse-Bold.otf);
+}
+.odin-container > p {
+  font-size: 70px;
+  margin-left: 159px;
+  margin-top: -90px;
+  font-family: norse;
+  color: white;
+}
+.odin-container {
+  z-index: 10;
+
+  background: rgba(0, 0, 0, 0.5);
+  width: 387px;
+  height: 100px;
+  margin-top: -450px;
+  margin-left: 0px;
+}
+
 /*Step 3: Some Tips!
 
 How you attack this project is mostly up to you, but it is wise to begin by scaffolding out the structure of the page, and then take the various sections one by one.
