@@ -32,43 +32,57 @@
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams. Sign up
             <span style="font-style: italic">now</span> to get started. <br />
-            You <span style="font-style: italic">know</span> you want to.
+            <br />
+            You
+            <span style="font-style: italic">know</span> you want to.
           </p>
         </div>
-        <p class="lets">Let's do this!</p>
-        <form action="#" method="post">
-          <div class="first">
-            <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" id="first_name" />
-          </div>
+        <div class="all-form">
+          <p class="lets">Let's do this!</p>
+          <div class="form">
+            <form action="#" method="post">
+              <div class="form-container">
+                <div class="form-left">
+                  <div class="first">
+                    <label for="first_name">First Name:<br /></label>
+                    <input type="text" name="first_name" id="first_name" />
+                  </div>
+                  <div class="email">
+                    <label for="email">Email:<br /></label>
+                    <input type="email" name="email" id="email" />
+                  </div>
+                  <div class="password1">
+                    <label for="user_password">Password:<br /></label>
+                    <input type="password" id="user_password" name="password" />
+                  </div>
+                </div>
+                <div class="form-right">
+                  <div class="last">
+                    <label for="last_name">Last Name:<br /></label>
+                    <input type="text" name="last_name" id="last_name" />
+                  </div>
 
-          <div class="last">
-            <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" id="last_name" />
-          </div>
+                  <div class="phone">
+                    <label for="phone_number">Phone Number:<br /></label>
+                    <input type="tel" id="phone_number" name="phone_number" />
+                  </div>
 
-          <div class="email">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" />
+                  <div class="password2">
+                    <label for="user_password">Confirm Password:<br /></label>
+                    <input
+                      type="password"
+                      id="user_password2"
+                      name="password"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="phone">
-            <label for="phone_number">Phone Number:</label>
-            <input type="tel" id="phone_number" name="phone_number" />
-          </div>
-
-          <div class="password1">
-            <label for="user_password">Password:</label>
-            <input type="password" id="user_password" name="password" />
-          </div>
-          <div class="password2">
-            <label for="user_password">Confirm Password:</label>
-            <input type="password" id="user_password2" name="password" />
-          </div>
-
-          <div class="btn">
-            <button>Creat Account</button>
-          </div>
-        </form>
+        </div>
+        <div class="btn">
+          <button class="button">Creat Account</button>
+        </div>
         <div class="bottom-text">
           <p>Already have an account? <a href="#"> Log in</a></p>
         </div>

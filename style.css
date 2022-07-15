@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100%;
+  background-color: #f9fafb;
 }
 .all-container {
   display: flex;
@@ -50,8 +51,48 @@ body {
   background: rgba(0, 0, 0, 0.5);
   width: 387px;
   height: 100px;
-  margin-top: -450px;
+  margin-top: -500px;
   margin-left: 0px;
+}
+
+/*right*/
+.right-container {
+  margin-top: 100px;
+}
+.text-container {
+  width: 490px;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+/*form*/
+.all-form {
+  background-color: #ffffff;
+  width: 977px;
+  box-shadow: 10px 10px 5px #dddedf;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+.form-left > * {
+  padding-bottom: 20px;
+  padding-right: 120px;
+  padding-left: 30px;
+}
+.form-right > * {
+  padding-bottom: 20px;
+}
+.lets {
+  padding-left: 30px;
+}
+
+.btn {
+  padding-left: 30px;
+}
+.bottom-text {
+  padding-left: 30px;
 }
 
 /*Step 3: Some Tips!
